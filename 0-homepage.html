@@ -15,11 +15,31 @@
 
     <body class="bg-dark">
         <header>
-            <nav class="navbar navbar-expand-md">
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#thenavbar">
+            <nav class="navbar navbar-expand-md d-flex-row justify-content-between align-middle">
+                <button class="navbar-toggler bg-danger" data-toggle="collapse" data-target="#thenavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand"><img src="images/smile_off.png"><img class="pl-4" src="images/logo.png"></a>
+
+                <div class="navbar-brand d-none d-md-block">      
+                        <a class="" href="#">
+                            <img class="" src="images/smile_off.png">             
+                            <img class="pl-4" src="images/logo.png">
+                        </a>
+                </div>
+
+                <div class="container-fluid ">
+                    <div class="col-12 d-flex d-flex-row justify-content-center d-md-none">
+                        <a class="">
+                            <img class="" src="images/smile_off.png">
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex d-flex-row justify-content-center d-md-none">
+                        <a class="">
+                            <img class="pl-4" src="images/logo.png">
+                        </a>
+                    </div>
+                </div>
+
                 <div class="collapse navbar-collapse" id="thenavbar">
                     
                     <ul class="navbar-nav ml-auto">
