@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    background-image: url("images/pic_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+.register {
+    border-radius: 23px;
+    background-color: #C271FF;
+}
+
+h1.school {
+    font-weight: 2rem;
+    color: red;
+}
+
+.learn {
+  color: #C271FF;
+  font-weight: bold;
+}
+
