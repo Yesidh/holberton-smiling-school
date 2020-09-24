@@ -1,8 +1,9 @@
 .header {
     width: 100%;
+    height: 1093px;
     background-image: url("images/pic_1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover cover;
     background-size: 100%;
 }
 
@@ -12,12 +13,117 @@
 }
 
 h1.school {
-    font-weight: 2rem;
-    color: red;
+    font-size: 4rem;
+    font-weight: 1000 !important;
+    letter-spacing: 0.2rem;
 }
 
 .learn {
   color: #C271FF;
-  font-weight: bold;
+  font-weight: 1000 !important;
 }
+
+.profile {
+  max-width: 150px !important;
+  height: 150px !important;
+}
+
+.cQuotes {
+  background-color: #C271FF;
+}
+
+.carousel-control-next-icon {
+  width: 30px;
+  height: 60px;
+  background-image: url(images/arrow_white_right.png) !important;
+  background-size: cover cover;
+  background-size: 100% 100%;
+  display: block;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(images/arrow_white_left.png) !important;
+  width: 30px;
+  height: 60px;
+  background-size: cover cover;
+  background-size: 100% 100%;
+}
+.bg-home {
+  background-color: #071629;
+}
+
+#to-show {
+  display: none;
+}
+#to-hover:hover > #to-show {
+  display: block; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
