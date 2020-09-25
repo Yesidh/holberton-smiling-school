@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover cover;
     background-size: 100%;
+    background-color: #071629;
 }
 
 .register {
@@ -12,7 +13,7 @@
     background-color: #C271FF;
 }
 
-h1.school {
+.school {
     font-size: 4rem;
     font-weight: 1000 !important;
     letter-spacing: 0.2rem;
@@ -21,6 +22,9 @@ h1.school {
 .learn {
   color: #C271FF;
   font-weight: 1000 !important;
+}
+.noBoldPurple {
+  color: #C271FF;
 }
 
 .profile {
@@ -48,20 +52,58 @@ h1.school {
   background-size: cover cover;
   background-size: 100% 100%;
 }
-.bg-home {
+
+#carouselVideos .carousel-control-next-icon {
+  width: 30px;
+  height: 60px;
+  background-image: url(images/arrow_black_right.png) !important;
+  background-size: cover cover;
+  background-size: 100% 100%;
+  display: block;
+}
+#carouselVideos .carousel-control-prev-icon {
+  background-image: url(images/arrow_black_left.png) !important;
+  width: 30px;
+  height: 60px;
+  background-size: cover cover;
+  background-size: 100% 100%;
+}
+
+
+
+.play {
+  position: relative;
+  width: 54px !important;
+  height: 54px !important;
+  left: 30%;
+  bottom: 50%
+
+}
+
+.card-text {
+  opacity: 50%;
+}
+.card {
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3) !important;
+}
+
+.fooPicture {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.es3ya {
+  height: 15px;
+  width: 15px;
+}
+
+.smiles {
   background-color: #071629;
 }
-
-#to-show {
-  display: none;
+.smiOn {
+  height: 36px;
+  width: 45px;
 }
-#to-hover:hover > #to-show {
-  display: block; 
-}
-
-
-
-
 
 
 
