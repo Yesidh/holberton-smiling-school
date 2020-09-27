@@ -52,6 +52,22 @@
       background-size: 100%;
       background-color: var(--color-preto);
   }
+  .headerPrice {
+      width: 100%;
+      height: 1093px;
+      background-image: url("images/pic_2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover cover;
+      background-size: 100%;
+      background-color: var(--color-preto);
+  }
+  .nav-link:hover {
+      color: var(--color-moradito) !important ;
+  }
+  .bigtext {
+    font-size: 3rem;
+  }
+
 
 
 /*                     <!-- Get schooled section -->                     */
