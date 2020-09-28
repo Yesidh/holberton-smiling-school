@@ -35,7 +35,8 @@
   body {
     font-family: var(--font-family-base);
     font-weight: var(--font-weight-regular);
-  }
+    background-color: var(--color-preto);
+    }
 
 
 
@@ -82,6 +83,12 @@
     letter-spacing: 0.2rem;
   }
 
+
+  /*                    <!-- what's smile -->                    */
+  .playbutton {
+    width: 80px;
+    height: 80px;
+  }
 
   /*                     <!-- Learn from the pros -->                     */
     .fwLight {
@@ -140,7 +147,32 @@
     height: 36px;
     width: 45px;
   }
- 
+
+/*                    <!-- Go pro -->                    */
+  .gopro {
+    font-size: 3rem;
+  }
+  .thecheck {
+    background-color: #82D24F;
+  }
+  .lin {
+    opacity: 20%;
+  }
+  .sign {
+    width: 88px;
+    height: 35px;
+  }
+  .priceMonth {
+    opacity: 53%;
+  }
+  .price {
+    font-size: 3rem;
+  }
+
+  /*                  <!-- F.A.Q. -->                   */
+  .faq {
+    font-size: 3rem;
+  }
 
 /*                     <!--Footer-->                     */
   .furer {
