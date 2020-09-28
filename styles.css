@@ -62,13 +62,28 @@
       background-size: 100%;
       background-color: var(--color-preto);
   }
+  .headerCourses {
+    width: 100%;
+    height: 326px;
+    background-image: url("images/pic_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    background-size: 100%;
+    background-color: var(--color-preto);
+}
   .nav-link:hover {
       color: var(--color-moradito) !important ;
   }
   .bigtext {
     font-size: 3rem;
   }
-
+  .coiny {
+    font-family: Coiny;
+    font-size: 2.5rem;
+  }
+  .coinyP {
+    font-family: Coiny;
+  }
 
 
 /*                     <!-- Get schooled section -->                     */
