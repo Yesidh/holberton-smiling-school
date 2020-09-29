@@ -248,11 +248,21 @@
 
 
 
-
-
-
-
-
+  /*                    <!-- search filter -->                    */
+  input[type="search"] {
+    font-family: "Font Awesome 5 Brands" !important;
+    color: black !important;
+  }
+ .formOpacity {
+   opacity: 50% !important;
+    }
+ select option:hover {
+   color: var(--color-moradito) !important;
+   background: white !important;
+ }
+ .form-control option[value="1"] {
+  background: rgba(100, 100, 100, 0.3) !important;
+}
 
 
 
